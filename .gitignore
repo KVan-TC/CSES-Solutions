@@ -1,0 +1,21 @@
+.venv/*
+.vscode/*
+
+Additional Problems I/*.exe
+Additional Problems II/*.exe
+Advanced Graph Problems/*.exe
+Advanced Techniques/*.exe
+Bitwise Operations/*.exe
+Construction Problems/*.exe
+Counting Problems/*.exe
+Dynamic Programming/*.exe
+Geometry/*.exe
+Graph Algorithms/*.exe
+Interactive Problems/*.exe
+Introductory Problems/*.exe
+Mathematics/*.exe
+Range Queries/*.exe
+Sliding Window Problems/*.exe
+Sorting and Searching/*.exe
+String Algorithms/*.exe
+Tree Algorithms/*.exe
