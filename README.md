@@ -5,5 +5,5 @@
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Dynamic Programming   |     10/23     |
-| Mathematics           |     6/37      |
-| **Total**             |   **16/60**   |
+| Mathematics           |     7/37      |
+| **Total**             |   **17/60**   |
