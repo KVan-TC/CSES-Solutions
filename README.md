@@ -6,5 +6,5 @@
 |-----------------------|:-------------:|
 | Dynamic Programming   |     10/23     |
 | Mathematics           |     10/37     |
-| Geometry              |     2/16      |
-| **Total**             |   **22/60**   |
+| Geometry              |     3/16      |
+| **Total**             |   **23/76**   |
