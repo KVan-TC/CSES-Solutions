@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+using ll = long long;
+
 const int N = 3005;
 const int dx[] = {0, 1}, dy[] = {1, 0};
 
