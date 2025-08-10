@@ -1,10 +1,10 @@
 # CSES Solutions
 
-[CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode:
+Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `2025-08-10`, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
-| Dynamic Programming   |     22/23     |
+| Dynamic Programming   |     23/23     |
 | Mathematics           |     10/37     |
 | Geometry              |     3/16      |
-| **Total**             |   **35/76**   |
+| **Total**             |   **36/400**  |
