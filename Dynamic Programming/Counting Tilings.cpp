@@ -1,10 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define fi first
-#define se second
 
 using ll = long long;
-using pii = pair<int, int>;
 
 const int N = 10;
 const int M = 1e9 + 7;
