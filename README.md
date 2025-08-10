@@ -4,7 +4,7 @@
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
-| Dynamic Programming   |     18/23     |
+| Dynamic Programming   |     19/23     |
 | Mathematics           |     10/37     |
 | Geometry              |     3/16      |
-| **Total**             |   **31/76**   |
+| **Total**             |   **32/76**   |
