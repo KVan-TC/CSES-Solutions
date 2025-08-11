@@ -6,8 +6,7 @@ using ll = long long;
 int T;
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    ios::sync_with_stdio(0); cin.tie(0);
  
     cin >> T;
     for (int a, b; cin >> a >> b; )

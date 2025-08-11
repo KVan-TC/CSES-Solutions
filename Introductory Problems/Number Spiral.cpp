@@ -12,8 +12,7 @@ ll sol(ll x, ll y) {
 }
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    ios::sync_with_stdio(0); cin.tie(0);
  
     cin >> T;
     for (int x, y; cin >> x >> y; ) {

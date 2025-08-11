@@ -6,8 +6,7 @@ using ll = long long;
 string s;
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    ios::sync_with_stdio(0); cin.tie(0);
  
     cin >> s;
     int n = s.size(), ans = 1, cur = 1;

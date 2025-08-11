@@ -17,8 +17,7 @@ vector<ll> dp = {0};
 Project P[N];
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    ios::sync_with_stdio(0); cin.tie(0);
 
     cin >> n;
 

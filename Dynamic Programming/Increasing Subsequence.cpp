@@ -10,8 +10,7 @@ const int N = 2e5 + 5;
 int n, x, len, f[N];
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    ios::sync_with_stdio(0); cin.tie(0);
 
     for (cin >> n; cin >> x; ) {
         int it = lower_bound(f, f + len, x) - f;

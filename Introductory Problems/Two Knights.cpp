@@ -6,8 +6,7 @@ using ll = long long;
 ll K;
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    ios::sync_with_stdio(0); cin.tie(0);
  
     cin >> K;
     for (ll k = 1; k <= K; k++)
