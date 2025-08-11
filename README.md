@@ -4,8 +4,8 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
-| Introductory Problems |     22/24     |
+| Introductory Problems |     23/24     |
 | Dynamic Programming   |     23/23     |
 | Mathematics           |     10/37     |
 | Geometry              |     3/16      |
-| **Total**             |   **58/400**  |
+| **Total**             |   **59/400**  |
