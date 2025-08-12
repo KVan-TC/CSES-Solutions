@@ -5,8 +5,8 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
 | Introductory Problems |     24/24     |
-| Sorting and Searching |     7/35      |
+| Sorting and Searching |     8/35      |
 | Dynamic Programming   |     23/23     |
 | Mathematics           |     10/37     |
 | Geometry              |     3/16      |
-| **Total**             |   **67/400**  |
+| **Total**             |   **68/400**  |
