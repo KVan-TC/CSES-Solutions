@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `2025-08-11`, the following number of solutions have been completed:
+Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `2025-08-12`, the following number of solutions have been completed:
 
 | Problem Type          | Number Solved |
 |-----------------------|:-------------:|
@@ -9,5 +9,6 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | Dynamic Programming   |     23/23     |
 | Graph Algorithms      |     3/36      |
 | Mathematics           |     10/37     |
+| String Algorithms     |     1/21      |
 | Geometry              |     3/16      |
-| **Total**             |   **73/400**  |
+| **Total**             |   **74/400**  |
