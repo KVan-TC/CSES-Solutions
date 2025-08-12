@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `2025-08-12`, the following number of solutions have been completed:
+Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `2025-08-13`, the following number of solutions have been completed:
 
 ## Table of Contents
 
@@ -12,9 +12,9 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Graph Algorithms](#Graph-Algorithms)             |     3/36      |
 | [Range Queries](#Range-Queries)                   |     0/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
-| [Mathematics](#Mathematics)                       |     9/37     |
+| [Mathematics](#Mathematics)                       |     9/37      |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
-| [Geometry](#Geometry)                             |     3/16      |
+| [Geometry](#Geometry)                             |     4/16      |
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
@@ -87,6 +87,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Counting Rooms](/Graph%20Algorithms/Counting%20Rooms.cpp)
 1. [Labyrinth](/Graph%20Algorithms/Labyrinth.cpp)
 1. [Building Roads](/Graph%20Algorithms/Building%20Roads.cpp)
+1. [Message Route](/Graph%20Algorithms/Message%20Route.cpp)
 
 ## Range Queries
 
