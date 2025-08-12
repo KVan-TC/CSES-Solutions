@@ -9,6 +9,6 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | Dynamic Programming   |     23/23     |
 | Graph Algorithms      |     3/36      |
 | Mathematics           |     10/37     |
-| String Algorithms     |     8/21      |
+| String Algorithms     |     9/21      |
 | Geometry              |     3/16      |
-| **Total**             |   **81/400**  |
+| **Total**             |   **82/400**  |
