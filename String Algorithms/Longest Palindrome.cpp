@@ -20,7 +20,7 @@ int main() {
     T += '$';
     int n = T.size();
     
-    for (int i = 0, ct = 0, r = 0; i < n; i++) {
+    for (int i = 1, ct = 0, r = 0; i < n - 1; i++) {
         int mir = 2 * ct - i;
         if (i < r) p[i] = min(r - i, p[mir]);
         while (T[i + p[i] + 1] == T[i - p[i] - 1]) p[i]++;
