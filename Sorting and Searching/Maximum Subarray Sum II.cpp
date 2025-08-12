@@ -5,8 +5,8 @@ using ll = long long;
  
 const int N = 2e5+5;
  
-int n, k, a, b;
-ll S, p[N];
+int n, a, b;
+ll p[N];
  
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
