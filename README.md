@@ -14,11 +14,11 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
 | [Mathematics](#Mathematics)                       |     9/37      |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
-| [Geometry](#Geometry)                             |     4/16      |
+| [Geometry](#Geometry)                             |     5/16      |
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **84/400**  |
+| **Total**                                         |   **86/400**  |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -88,6 +88,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Labyrinth](/Graph%20Algorithms/Labyrinth.cpp)
 1. [Building Roads](/Graph%20Algorithms/Building%20Roads.cpp)
 1. [Message Route](/Graph%20Algorithms/Message%20Route.cpp)
+1. [Building Teams](/Graph%20Algorithms/Building%20Teams.cpp)
 
 ## Range Queries
 
