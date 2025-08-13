@@ -5,7 +5,7 @@ using ll = long long;
 
 const int N = 1e5+5;;
 
-int n, m, par[N];
+int n, m, p[N];
 bool used[N];
 vector<int> adj[N];
 
@@ -22,8 +22,10 @@ int main() {
     }
 
     queue<int> q;
-    used[1] = true;
     q.push(1);
+    for (int i = 2; i <= n; i++)
+        p[i] = -1;
+    p[1] = 0;
 
     while (!q.empty()) {
         int u = q.front(); q.pop();
@@ -31,9 +33,9 @@ int main() {
         if (u == n) {
             int v = u;
             vector<int> path;
-            while (par[v]) {
+            while (p[v]) {
                 path.push_back(v);
-                v = par[v];
+                v = p[v];
             }
             path.push_back(v);
             reverse(path.begin(), path.end());
@@ -45,9 +47,8 @@ int main() {
         }
 
         for (int v : adj[u])
-            if (!used[v]) {
-                used[v] = true;
-                par[v] = u;
+            if (p[v] == -1) {
+                p[v] = u;
                 q.push(v);
             }
     }
