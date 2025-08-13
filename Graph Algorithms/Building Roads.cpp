@@ -18,6 +18,7 @@ void merge(int u, int v) {
         adj[v] += adj[u]; adj[u] = v;
     }
 }
+
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
  
