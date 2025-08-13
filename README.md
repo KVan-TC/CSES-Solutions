@@ -12,13 +12,13 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Graph Algorithms](#Graph-Algorithms)             |     8/36      |
 | [Range Queries](#Range-Queries)                   |     6/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
-| [Mathematics](#Mathematics)                       |     16/37     |
+| [Mathematics](#Mathematics)                       |     18/37     |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
 | [Geometry](#Geometry)                             |     3/16      |
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **101/400** |
+| **Total**                                         |   **103/400** |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -120,6 +120,8 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Christmas Party](/Mathematics/Christmas%20Party.cpp)
 1. [Permutation Order](/Mathematics/Permutation%20Order.cpp)
 1. [Permutation Rounds](/Mathematics/Permutation%20Rounds.cpp)
+1. [Bracket Sequences I](/Mathematics/Bracket%20Sequences%20I.cpp)
+1. [Bracket Sequences II](/Mathematics/Bracket%20Sequences%20II.cpp)
 
 ## String Algorithms
 1. [Word Combinations](/String%20Algorithms/Word%20Combinations.cpp)
