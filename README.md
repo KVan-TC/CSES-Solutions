@@ -10,7 +10,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Sorting and Searching](#Sorting-and-Searching)   |     10/35     |
 | [Dynamic Programming](#Dynamic-Programming)       |     23/23     |
 | [Graph Algorithms](#Graph-Algorithms)             |     6/36      |
-| [Range Queries](#Range-Queries)                   |     1/25      |
+| [Range Queries](#Range-Queries)                   |     2/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
 | [Mathematics](#Mathematics)                       |     9/37      |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
@@ -18,7 +18,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **86/400**  |
+| **Total**                                         |   **88/400**  |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -93,6 +93,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 
 ## Range Queries
 1. [Static Range Sum Queries](/Range%20Queries/Static%20Range%20Sum%20Queries.cpp)
+1. [Static Range Minimum Queries](/Range%20Queries/Static%20Range%20Minimum%20Queries.cpp)
 
 ## Tree Algorithms
 
