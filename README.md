@@ -7,7 +7,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | Problem Type                                      | Number Solved |
 |---------------------------------------------------|:-------------:|
 | [Introductory Problems](#Introductory-Problems)   |     24/24     |
-| [Sorting and Searching](#Sorting-and-Searching)   |     12/35     |
+| [Sorting and Searching](#Sorting-and-Searching)   |     13/35     |
 | [Dynamic Programming](#Dynamic-Programming)       |     23/23     |
 | [Graph Algorithms](#Graph-Algorithms)             |     8/36      |
 | [Range Queries](#Range-Queries)                   |     6/25      |
@@ -18,7 +18,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **110/400** |
+| **Total**                                         |   **111/400** |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -51,6 +51,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Apartments](/Sorting%20and%20Searching/Apartments.cpp)
 1. [Ferris Wheel](/Sorting%20and%20Searching/Ferris%20Wheel.cpp)
 1. [Concert Tickets](/Sorting%20and%20Searching//Concert%20Tickets.cpp)
+1. [Restaurant Customers](/Sorting%20and%20Searching/Restaurant%20Customers.cpp)
 1. [Sum of Two Values](/Sorting%20and%20Searching/Sum%20of%20Two%20Values.cpp)
 1. [Sum of Three Values](/Sorting%20and%20Searching/Sum%20of%20Three%20Values.cpp)
 1. [Sum of Four Values](/Sorting%20and%20Searching/Sum%20of%20Four%20Values.cpp)
