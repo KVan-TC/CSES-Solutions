@@ -14,15 +14,6 @@ bool used[N][N];
 char trace[N][N];
 pii A, B, par[N][N];
  
-void dfs(int x, int y) {
-    used[x][y] = 1;
-    for (int k = 0; k < 4; k++) {
-        int nx = x + dx[k], ny = y + dy[k];
-        if (0 <= nx && nx < n && 0 <= ny && ny < m && !used[nx][ny])
-            dfs(nx, ny);
-    }
-}
- 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
  
