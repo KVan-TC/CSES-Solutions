@@ -9,12 +9,12 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Introductory Problems](#Introductory-Problems)   |     24/24     |
 | [Sorting and Searching](#Sorting-and-Searching)   |     10/35     |
 | [Dynamic Programming](#Dynamic-Programming)       |     23/23     |
-| [Graph Algorithms](#Graph-Algorithms)             |     3/36      |
+| [Graph Algorithms](#Graph-Algorithms)             |     6/36      |
 | [Range Queries](#Range-Queries)                   |     0/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
 | [Mathematics](#Mathematics)                       |     9/37      |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
-| [Geometry](#Geometry)                             |     5/16      |
+| [Geometry](#Geometry)                             |     3/16      |
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
