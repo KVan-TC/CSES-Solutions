@@ -12,13 +12,13 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Graph Algorithms](#Graph-Algorithms)             |     8/36      |
 | [Range Queries](#Range-Queries)                   |     6/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
-| [Mathematics](#Mathematics)                       |     21/37     |
+| [Mathematics](#Mathematics)                       |     22/37     |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
 | [Geometry](#Geometry)                             |     3/16      |
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **106/400** |
+| **Total**                                         |   **107/400** |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -125,6 +125,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Counting Necklaces](/Mathematics/Counting%20Necklaces.cpp)
 1. [Counting Grids](/Mathematics/Counting%20Grids.cpp)
 1. [Fibonacci Numbers](/Mathematics/Fibonacci%20Numbers.cpp)
+1. [Throwing Dice](/Mathematics/Throwing%20Dice.cpp)
 
 ## String Algorithms
 1. [Word Combinations](/String%20Algorithms/Word%20Combinations.cpp)
