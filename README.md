@@ -12,13 +12,13 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Graph Algorithms](#Graph-Algorithms)             |     6/36      |
 | [Range Queries](#Range-Queries)                   |     6/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
-| [Mathematics](#Mathematics)                       |     11/37     |
+| [Mathematics](#Mathematics)                       |     12/37     |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
 | [Geometry](#Geometry)                             |     3/16      |
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **94/400**  |
+| **Total**                                         |   **95/400**  |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -113,6 +113,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Counting Coprime Pairs](/Mathematics/Counting%20Coprime%20Pairs.cpp)
 1. [Next Prime](/Mathematics/Next%20Prime.cpp)
 1. [Binomial Coefficients](/Mathematics/Binomial%20Coefficients.cpp)
+1. [Creating Strings II](/Mathematics/Creating%20Strings%20II.cpp)
 
 ## String Algorithms
 1. [Word Combinations](/String%20Algorithms/Word%20Combinations.cpp)
