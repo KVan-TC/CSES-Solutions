@@ -89,6 +89,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Building Roads](/Graph%20Algorithms/Building%20Roads.cpp)
 1. [Message Route](/Graph%20Algorithms/Message%20Route.cpp)
 1. [Building Teams](/Graph%20Algorithms/Building%20Teams.cpp)
+1. [Round Trip](/Graph%20Algorithms/Round%20Trip.cpp)
 
 ## Range Queries
 
