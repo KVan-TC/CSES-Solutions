@@ -7,7 +7,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | Problem Type                                      | Number Solved |
 |---------------------------------------------------|:-------------:|
 | [Introductory Problems](#Introductory-Problems)   |     24/24     |
-| [Sorting and Searching](#Sorting-and-Searching)   |     10/35     |
+| [Sorting and Searching](#Sorting-and-Searching)   |     11/35     |
 | [Dynamic Programming](#Dynamic-Programming)       |     23/23     |
 | [Graph Algorithms](#Graph-Algorithms)             |     8/36      |
 | [Range Queries](#Range-Queries)                   |     6/25      |
@@ -18,7 +18,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **107/400** |
+| **Total**                                         |   **108/400** |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -48,6 +48,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 
 ## Sorting And Searching
 1. [Distinct Numbers](/Sorting%20and%20Searching/Distinct%20Numbers.cpp)
+1. [Apartments](/Sorting%20and%20Searching/Apartments.cpp)
 1. [Sum of Two Values](/Sorting%20and%20Searching/Sum%20of%20Two%20Values.cpp)
 1. [Sum of Three Values](/Sorting%20and%20Searching/Sum%20of%20Three%20Values.cpp)
 1. [Sum of Four Values](/Sorting%20and%20Searching/Sum%20of%20Four%20Values.cpp)
