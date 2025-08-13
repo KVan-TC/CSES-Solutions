@@ -13,12 +13,12 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Range Queries](#Range-Queries)                   |     6/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
 | [Mathematics](#Mathematics)                       |     22/37     |
-| [String Algorithms](#String-Algorithms)           |     11/21     |
+| [String Algorithms](#String-Algorithms)           |     12/21     |
 | [Geometry](#Geometry)                             |     3/16      |
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **108/400** |
+| **Total**                                         |   **109/400** |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -49,6 +49,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 ## Sorting And Searching
 1. [Distinct Numbers](/Sorting%20and%20Searching/Distinct%20Numbers.cpp)
 1. [Apartments](/Sorting%20and%20Searching/Apartments.cpp)
+1. [Ferris Wheel](/Sorting%20and%20Searching/Ferris%20Wheel.cpp)
 1. [Sum of Two Values](/Sorting%20and%20Searching/Sum%20of%20Two%20Values.cpp)
 1. [Sum of Three Values](/Sorting%20and%20Searching/Sum%20of%20Three%20Values.cpp)
 1. [Sum of Four Values](/Sorting%20and%20Searching/Sum%20of%20Four%20Values.cpp)
