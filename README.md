@@ -10,7 +10,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Sorting and Searching](#Sorting-and-Searching)   |     10/35     |
 | [Dynamic Programming](#Dynamic-Programming)       |     23/23     |
 | [Graph Algorithms](#Graph-Algorithms)             |     6/36      |
-| [Range Queries](#Range-Queries)                   |     0/25      |
+| [Range Queries](#Range-Queries)                   |     1/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
 | [Mathematics](#Mathematics)                       |     9/37      |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
@@ -92,6 +92,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Round Trip](/Graph%20Algorithms/Round%20Trip.cpp)
 
 ## Range Queries
+1. [Static Range Sum Queries](/Range%20Queries/Static%20Range%20Sum%20Queries.cpp)
 
 ## Tree Algorithms
 
