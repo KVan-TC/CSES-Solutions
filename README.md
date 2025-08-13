@@ -1,13 +1,13 @@
 # CSES Solutions
 
-Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `2025-08-13`, the following number of solutions have been completed:
+Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `2025-08-14`, the following number of solutions have been completed:
 
 ## Table of Contents
 
 | Problem Type                                      | Number Solved |
 |---------------------------------------------------|:-------------:|
 | [Introductory Problems](#Introductory-Problems)   |     24/24     |
-| [Sorting and Searching](#Sorting-and-Searching)   |     14/35     |
+| [Sorting and Searching](#Sorting-and-Searching)   |     16/35     |
 | [Dynamic Programming](#Dynamic-Programming)       |     23/23     |
 | [Graph Algorithms](#Graph-Algorithms)             |     8/36      |
 | [Range Queries](#Range-Queries)                   |     6/25      |
@@ -18,7 +18,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **112/400** |
+| **Total**                                         |   **114/400** |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -54,6 +54,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Restaurant Customers](/Sorting%20and%20Searching/Restaurant%20Customers.cpp)
 1. [Movie Festival](/Sorting%20and%20Searching/Movie%20Festival.cpp)
 1. [Sum of Two Values](/Sorting%20and%20Searching/Sum%20of%20Two%20Values.cpp)
+1. [Maximum Subarray Sum](/Sorting%20and%20Searching/Maximum%20Subarray%20Sum.cpp)
 1. [Sum of Three Values](/Sorting%20and%20Searching/Sum%20of%20Three%20Values.cpp)
 1. [Sum of Four Values](/Sorting%20and%20Searching/Sum%20of%20Four%20Values.cpp)
 1. [Nearest Smaller Values](/Sorting%20and%20Searching/Nearest%20Smaller%20Values.cpp)
