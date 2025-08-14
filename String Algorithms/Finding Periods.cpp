@@ -6,7 +6,7 @@ using ll = long long;
 const int N = 1e6+5;
  
 string S;
-int LPS[N];
+int pi[N];
  
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
@@ -15,14 +15,14 @@ int main() {
     int n = S.size();
 
     for (int i = 1; i < n; i++) {
-        int j = LPS[i - 1];
-        while (j > 0 && S[i] != S[j]) j = LPS[j - 1];
+        int j = pi[i - 1];
+        while (j > 0 && S[i] != S[j]) j = pi[j - 1];
         if (S[i] == S[j]) j++;
-        LPS[i] = j;
+        pi[i] = j;
     }
     
     vector<int> ans;
-    for (int k = LPS[n - 1]; k > 0; k = LPS[k - 1])
+    for (int k = pi[n - 1]; k > 0; k = pi[k - 1])
         ans.push_back(n - k);
 
     ans.push_back(n);
