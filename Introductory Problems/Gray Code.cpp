@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-using ll = long long;
 
 int n;
 bool b[20];

@@ -1,10 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-using ll = long long;
 
-const int   dx[] = {-1, 1, 0, 0},
-            dy[] = {0, 0, -1, 1};
+const int dx[4] = {0, 1, 0, -1};
+const int dy[4] = {1, 0, -1, 0};
 const int N = 1e3+5;
 
 int n, m;

@@ -1,12 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-using ll = long long;
-using pii = pair<int, int>;
- 
-const int   dx[] = {-1, 1, 0, 0},
-            dy[] = {0, 0, -1, 1};
-const char C[] = {'U', 'D', 'L', 'R'};
+typedef pair<int, int> pii;
+
+const int dx[4] = {0, 1, 0, -1};
+const int dy[4] = {1, 0, -1, 0};
+const char C[4] = {'R', 'D', 'L', 'U'};
 const int N = 1e3+5;
  
 int n, m;

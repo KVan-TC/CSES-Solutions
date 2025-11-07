@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-using ll = long long;
 
 string S;
 vector<string> v;

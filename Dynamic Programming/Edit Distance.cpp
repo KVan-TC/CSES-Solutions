@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
 const int N = 5e3+5;
 
 string a, b;

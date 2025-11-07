@@ -1,10 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define fi first
-#define se second
 
-using ll = long long;
-using pii = pair<int, int>;
+typedef long long ll;
+typedef pair<int, int> pii;
 
 const int N = 20;
 const int oo = 2e9;
@@ -27,16 +25,16 @@ int main() {
         for (int i = 0; i < n; i++)
             if (mask & (1 << i)) {
                 pii nxt = f[mask ^ (1 << i)];
-                if (nxt.se + w[i] <= X)
-                    nxt.se += w[i];
+                if (nxt.second + w[i] <= X)
+                    nxt.second += w[i];
                 else {
-                    nxt.fi++;
-                    nxt.se = w[i];
+                    nxt.first++;
+                    nxt.second = w[i];
                 }
                 f[mask] = min(f[mask], nxt);
             }
     }
 
-    cout << f[(1 << n) - 1].fi << "\n";
+    cout << f[(1 << n) - 1].first << "\n";
     return 0;
 }

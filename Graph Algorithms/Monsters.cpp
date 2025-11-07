@@ -1,12 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-using ll = long long;
-using pii = pair<int, int>;
+typedef pair<int, int> pii;
 
-const int   dx[] = {1, -1, 0, 0},
-            dy[] = {0, 0, 1, -1};
-const char S[] = {'D', 'U', 'R', 'L'};
+const int dx[4] = {0, 1, 0, -1};
+const int dy[4] = {1, 0, -1, 0};
+const char C[4] = {'R', 'D', 'L', 'U'};
 const int N = 1e3+5;
 const int oo = 1e9;
 
@@ -62,7 +61,7 @@ int main() {
             string path = "";
             for (int s = step - 1; s >= 0; s--) {
                 int k = p[x][y];
-                path += S[k];
+                path += C[k];
                 x = x - dx[k], y = y - dy[k];
             }
             reverse(path.begin(), path.end());

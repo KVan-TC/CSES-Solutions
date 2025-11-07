@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
+const int dx[2] = {0, 1};
+const int dy[2] = {1, 0};
 const int N = 3005;
-const int dx[] = {0, 1}, dy[] = {1, 0};
 
 int n;
 string c[N];

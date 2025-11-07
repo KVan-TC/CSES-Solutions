@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
+typedef long long ll;
 
 ll n, p[25], ans;
 int k;

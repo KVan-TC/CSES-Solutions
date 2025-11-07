@@ -1,10 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define fi first
-#define se second
-
-using ll = long long;
-using pii = pair<int, int>;
 
 const char ch[2][2] = {{'A', 'B'}, {'C', 'D'}};
 const int N = 505;

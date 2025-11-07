@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
 string S;
 int f[26], pre[26], nxt[26];
 

@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
 const int N = 500;
 
 int a, b, F[N+1][N+1];

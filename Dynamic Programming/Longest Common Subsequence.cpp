@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
 const int N = 1e3+5;
 
 int n, m, a[N], b[N], f[N][N];
@@ -22,6 +20,7 @@ int main() {
                 f[i][j] = f[i - 1][j - 1] + 1;
             else
                 f[i][j] = max(f[i - 1][j], f[i][j - 1]);
+
     int l = f[n][m];
     cout << l << "\n";
     vector<int> v;

@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-using pii = pair<int, int>;
+typedef pair<int, int> pii;
 
 const int N = 2e5+5;
 

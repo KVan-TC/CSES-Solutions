@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
 const int X = 1e5+5;
 
 int n;

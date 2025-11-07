@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
 const int N = 1e3+5, M = 1e9 + 7;
 
 int n, f[2][N];

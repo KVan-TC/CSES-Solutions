@@ -1,10 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
-#define fi first
-#define se second
  
-using ll = long long;
-using pii = pair<int, int>;
+typedef long long ll;
+typedef pair<int, int> pii;
  
 const int N = 2e5+5;
 const int M = 1e9 + 7;
@@ -35,13 +33,13 @@ int main() {
     }
  
     sort(a, a + n, [](pii &a, pii &b) {
-        if (a.fi == b.fi) return b.se < a.se;
-        return a.fi < b.fi;
+        if (a.first == b.first) return b.second < a.second;
+        return a.first < b.first;
     });
  
     ll ans = 0;
     for (int i = 0; i < n; i++) {
-        int idx = a[i].se;
+        int idx = a[i].second;
         ll t = query(idx) + 1;
         ans = (ans + t) % M;
         update(idx, t);

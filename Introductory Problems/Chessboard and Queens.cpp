@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
- 
-using ll = long long;
 
 int f[8], ans, mask = (1 << 8) - 1;
 

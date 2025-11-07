@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-using ll = long long;
-
 const int N = 1e6+5, oo = 1e9;
 
 int n, S, f[N];

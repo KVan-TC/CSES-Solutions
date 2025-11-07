@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-using ll = long long;
-using pll = pair<ll, ll>;
+typedef long long ll;
+typedef pair<ll, ll> pll;
 
 const int M = 1e9 + 7;
  

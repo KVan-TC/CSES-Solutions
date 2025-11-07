@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-using ll = long long;
+typedef long long ll;
 
 const int M = 1e9 + 7;
 const int inv4 = (M + 1) / 4;
