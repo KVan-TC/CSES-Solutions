@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `2025-08-14`, the following number of solutions have been completed:
+Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `11-7-2025`, the following number of solutions have been completed:
 
 ## Table of Contents
 
@@ -13,9 +13,9 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Range Queries](#Range-Queries)                   |     6/25      |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
 | [Mathematics](#Mathematics)                       |     22/37     |
-| [String Algorithms](#String-Algorithms)           |     12/21     |
+| [String Algorithms](#String-Algorithms)           |     11/21     |
 | [Geometry](#Geometry)                             |     3/16      |
-| [Advanced Techniques](#Advanced-Techniques)       |     0/25      |
+| [Advanced Techniques](#Advanced-Techniques)       |     1/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
 | **Total**                                         |   **114/400** |
@@ -152,6 +152,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Polygon Area](/Geometry/Polygon%20Area.cpp)
 
 ## Advanced Techniques
+1. [Meet in the Middle](/Advanced%20Techniques/Meet%20in%20the%20Middle.cpp)
 
 ## Additional Problems I
 
