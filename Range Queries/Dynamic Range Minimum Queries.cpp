@@ -1,65 +1,49 @@
 #include <bits/stdc++.h>
 using namespace std;
  
-const int N = 2e5+5;
+typedef long long ll;
  
-int n, Q, a[N], t[4 * N];
-
-void pull(int i) {
-    t[i] = min(t[i << 1], t[i << 1 | 1]);
+const int N = 2e5+5;
+const int oo = 1e9;
+ 
+int n, Q, a[N], ST[N << 1];
+ 
+void update(int p, int v) {
+    p += n;
+    ST[p] = v;
+    for (p >>= 1; p > 0; p >>= 1)
+        ST[p] = min(ST[p << 1], ST[p << 1 | 1]);
 }
-
-void build(int i, int l, int r) {
-    if (l == r) {
-        t[i] = a[l];
-        return;
+ 
+int query(int l, int r) {
+    int a = oo;
+    for (l += n, r += n; l <= r; l >>= 1, r >>= 1) {
+        if (l & 1) a = min(a, ST[l++]);
+        if (!(r & 1)) a = min(a, ST[r--]);
     }
-    int m = (l + r) >> 1;
-    build(i << 1, l, m);
-    build(i << 1 | 1, m + 1, r);
-    pull(i);
+    return a;
 }
-
-void update(int i, int l, int r, int p, int v) {
-    if (l == r) {
-        t[i] = v;
-        return;
-    }
-
-    int m = (l + r) >> 1;
-    if (p <= m) update(i << 1, l, m, p, v);
-    else update(i << 1 | 1, m + 1, r, p, v);
-    pull(i);
-}
-
-ll query(int i, int l, int r, int u, int v) {
-    if (v < l || r < u) return 1e9;
-    if (u <= l && r <= v) return t[i];
-    int m = (l + r) >> 1;
-    return min(query(i << 1, l, m, u, v), query(i << 1 | 1, m + 1, r, u, v));
-}
-
+ 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
-
+ 
     cin >> n >> Q;
-
-    for (int i = 1; i <= n; i++)
-        cin >> a[i];
-
-    build(1, 1, n);
-
-    for (int q = 0; q < Q; q++) {
-        int type; cin >> type;
-        if (type == 1) {
+    for (int i = 1; i <= 2 * n; i++)
+        ST[i] = oo;
+ 
+    for (int i = 1; i <= n; i++) {
+        int x; cin >> x;
+        update(i, x);
+    }
+ 
+    for (int i = 0; i < Q; i++) {
+        int t; cin >> t;
+        if (t == 1) {
             int k, u; cin >> k >> u;
-
-            update(1, 1, n, k, u);
-
-        } else {
+            update(k, u);
+        } else if (t == 2) {
             int l, r; cin >> l >> r;
-
-            cout << query(1, 1, n, l, r) << "\n";
+            cout << query(l, r) << "\n";
         }
     }
     return 0;
