@@ -2,8 +2,8 @@
 using namespace std;
  
 typedef long long ll;
- 
-const int N = 2e5+5;;
+
+const int N = 2e5+5;
  
 int n, Q;
 ll p[N];
@@ -20,7 +20,6 @@ int main() {
  
     for (int q = 0; q < Q; q++) {
         int l, r; cin >> l >> r;
- 
         cout << p[r] - p[l - 1] << "\n";
     }
     return 0;
