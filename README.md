@@ -1,6 +1,6 @@
 # CSES Solutions
 
-Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `11-7-2025`, the following number of solutions have been completed:
+Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), written in C++ by TCode. As of `02-05-2026`, the following number of solutions have been completed:
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Sorting and Searching](#Sorting-and-Searching)   |     16/35     |
 | [Dynamic Programming](#Dynamic-Programming)       |     23/23     |
 | [Graph Algorithms](#Graph-Algorithms)             |     8/36      |
-| [Range Queries](#Range-Queries)                   |     6/25      |
+| [Range Queries](#Range-Queries)                   |     12/25     |
 | [Tree Algorithms](#Tree-Algorithms)               |     0/16      |
 | [Mathematics](#Mathematics)                       |     22/37     |
 | [String Algorithms](#String-Algorithms)           |     11/21     |
@@ -18,7 +18,7 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 | [Advanced Techniques](#Advanced-Techniques)       |     1/25      |
 | [Additional Problems I](#Additional-Problems-I)   |     0/30      |
 | [Additional Problems II](#Additional-Problems-II) |     0/30      |
-| **Total**                                         |   **114/400** |
+| **Total**                                         |   **120/400** |
 
 ## Introductory Problems
 1. [Weird Algorithm](/Introductory%20Problems/Weird%20Algorithm.cpp)
@@ -106,6 +106,12 @@ Accepted solutions to the [CSES Problem Set](https://cses.fi/problemset/), writt
 1. [Dynamic Range Minimum Queries](/Range%20Queries/Dynamic%20Range%20Minimum%20Queries.cpp)
 1. [Range Xor Queries](/Range%20Queries/Range%20Xor%20Queries.cpp)
 1. [Range Update Queries](/Range%20Queries/Range%20Update%20Queries.cpp)
+1. [Forest Queries](/Range%20Queries/Forest%20Queries.cpp)
+1. [Hotel Queries](/Range%20Queries/Hotel%20Queries.cpp)
+1. [List Removals](/Range%20Queries/List%20Removals.cpp)
+1. [Salary Queries](/Range%20Queries/Salary%20Queries.cpp)
+1. [Prefix Sum Queries](/Range%20Queries/Prefix%20Sum%20Queries.cpp)
+1. [Pizzeria Queries](/Range%20Queries/Pizzeria%20Queries.cpp)
 
 ## Tree Algorithms
 
