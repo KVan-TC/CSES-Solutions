@@ -6,42 +6,37 @@ typedef long long ll;
 const int N = 2e5+5;
  
 int n, Q, a[N];
-ll t[N];
-
+ll BIT[N];
+ 
 void update(int p, int v) {
-    int d = v - a[p];
-    a[p] = v;
     for (; p <= n; p += p & -p)
-        t[p] += d;
+        BIT[p] += v;
 }
-
+ 
 ll query(int p) {
-    ll s = 0;
+    ll a = 0;
     for (; p > 0; p -= p & -p)
-        s += t[p];
-    return s;
+        a += BIT[p];
+    return a;
 }
-
+ 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
-
+ 
     cin >> n >> Q;
-
     for (int i = 1; i <= n; i++) {
-        int x; cin >> x;
-        update(i, x);
+        cin >> a[i];
+        update(i, a[i]);
     }
-
-    for (int q = 0; q < Q; q++) {
-        int type; cin >> type;
-        if (type == 1) {
+ 
+    for (int i = 0; i < Q; i++) {
+        int t; cin >> t;
+        if (t == 1) {
             int k, u; cin >> k >> u;
-
-            update(k, u);
-
-        } else {
+            update(k, u - a[k]);
+            a[k] = u;
+        } else if (t == 2) {
             int l, r; cin >> l >> r;
-
             cout << query(r) - query(l - 1) << "\n";
         }
     }
