@@ -39,11 +39,9 @@ int main() {
         int type; cin >> type;
         if (type == 1) {
             int l, r, v; cin >> l >> r >> v;
-
             add(l, r, v);
         } else {
             int k; cin >> k;
-
             cout << query(k) << "\n";
         }
     }
