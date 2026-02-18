@@ -1,22 +1,26 @@
 #include <bits/stdc++.h>
 using namespace std;
+ 
+typedef long long ll;
 
-int T, x[105];
+int t;
 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
  
-    cin >> T;
-    for (int t = 0; t < T; t++) {
+    cin >> t;
+    while (t--) {
         int n, a, b; cin >> n >> a >> b;
         if (a + b > n || ((a == 0 || b == 0) && a + b != 0)) {
             cout << "NO\n";
             continue;
         }
+
         cout << "YES\n";
         for (int i = 1; i <= n; i++)
             cout << i << " ";
         cout << "\n";
+
         for (int i = 1; i <= b; i++)
             cout << a + i << " ";
         for (int i = 1; i <= a; i++)
@@ -25,5 +29,6 @@ int main() {
             cout << i << " ";
         cout << "\n";
     }
+
     return 0;
 }

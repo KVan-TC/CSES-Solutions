@@ -2,23 +2,25 @@
 using namespace std;
  
 typedef long long ll;
-
+ 
 const int M = 1e9 + 7;
  
-int n;
-
-ll pw(ll x, ll n, ll M) {
-    ll a = 1;
-    for (; n; x = x * x % M, n >>= 1)
+ll n;
+ 
+ll pw(ll x, ll n) {
+    ll a = 1; x %= M;
+    for (; n; n >>= 1, x = x * x % M)
         if (n & 1)
             a = a * x % M;
     return a;
 }
-
+ 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
  
     cin >> n;
-    cout << pw(2, n, M) << "\n";
+ 
+    cout << pw(2, n) << "\n";
+
     return 0;
 }

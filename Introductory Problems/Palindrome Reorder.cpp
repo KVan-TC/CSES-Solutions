@@ -1,30 +1,32 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-string S;
-int f[26];
+typedef long long ll;
+
+string s;
+int cnt[26];
 
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0);
- 
-    cin >> S;
+    ios_base::sync_with_stdio(0); cin.tie(0);
 
-    for (char ch : S) f[ch - 'A']++;
-
-    int c = -1;
-    for (int i = 0; i < 26; i++)
-        if (f[i] & 1) {
-            if (c != -1) return cout << "NO SOLUTION\n", 0;
-            c = i;
-        }
+    cin >> s;
+    int n = s.size();
+    for (char c : s) cnt[c - 'A']++;
 
     string half = "";
-    for (int i = 0; i < 26; i++)
-        half.append(f[i] / 2, char(i + 'A'));
+    int mid = -1;
+    for (int i = 0; i < 26; i++) {
+        half += string(cnt[i] / 2, char(i + 'A'));
 
+        if (cnt[i] % 2 == 1) {
+            if (mid != -1) return cout << "NO SOLUTION\n", 0;
+            mid = i;
+        }
+    }
     cout << half;
-    if (c != -1) cout << char(c + 'A');
+    if (mid != -1) cout << char(mid + 'A');
     reverse(half.begin(), half.end());
-    cout << half;
+    cout << half << "\n";
+
     return 0;
 }

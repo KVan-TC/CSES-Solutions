@@ -1,16 +1,16 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+ 
 typedef long long ll;
-
-ll K;
-
+ 
+ll n;
+ 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
  
-    cin >> K;
-    for (ll k = 1; k <= K; k++)
-        cout << (1LL + (k - 1) * (k - 2) / 2) * (k - 1) * (k + 4) << "\n";
+    cin >> n;
+    for (ll k = 1; k <= n; k++) 
+        cout << k * k * (k * k - 1) / 2 - 4 * (k - 1) * (k - 2) << "\n";
+        
     return 0;
 }
-// k^2(k^2+1)/2 - 4(k-1)(k-2) = (1+(k-1)(k-2)/2)(k-1)(k+4)

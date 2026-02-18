@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
+ 
+typedef long long ll;
 
 const char ch[2][2] = {{'A', 'B'}, {'C', 'D'}};
-const int N = 505;
 
-int n, m, d[N][N];
+int n, m;
 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
@@ -13,8 +14,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
             char c; cin >> c;
-
-            cout << ch[c < 'C'][(i + j) & 1];
+            cout << ch[c < 'C'][(i + j) % 2];
         }
         cout << "\n";
     }

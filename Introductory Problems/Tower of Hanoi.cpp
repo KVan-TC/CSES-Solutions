@@ -1,28 +1,28 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-int n;
-bool b[20];
+typedef long long ll;
 
-void move(int a, int b, int h) {
-    if (h == 1) {
+int n;
+
+void move(int n, int a, int b) {
+    if (n == 1) {
         cout << a << " " << b << "\n";
         return;
     }
 
     int c = 6 - a - b;
-    move(a, c, h - 1);
-    cout << a << " " << b << "\n";
-    move(c, b, h - 1);
+    move(n - 1, a, c);
+    move(1, a, b);
+    move(n - 1, c, b);
 }
-
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0);
- 
+    ios_base::sync_with_stdio(0); cin.tie(0);
+
     cin >> n;
-
+    
     cout << (1 << n) - 1 << "\n";
+    move(n, 1, 3);
 
-    move(1, 3, n);
     return 0;
 }

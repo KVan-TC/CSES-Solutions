@@ -1,26 +1,28 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
+typedef long long ll;
+
 int n;
-bool b[20];
+bool bit[105];
 
 void print() {
-    for (int i = n; i > 0; i--)
-        cout << b[i];
+    for (int i = n; i >= 1; i--)
+        cout << bit[i];
     cout << "\n";
 }
 
 int main() {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
- 
-    cin >> n;
+    ios_base::sync_with_stdio(0); cin.tie(0);
 
-    print();
-    for (int mask = 1; mask < (1 << n); mask++) {
+    cin >> n;
+    
+    for (int mask = 0; mask < (1 << n); mask++) {
         int LSB = __builtin_ffs(mask);
-        b[LSB] ^= 1;
+
+        bit[LSB] ^= 1;
         print();
     }
+
     return 0;
 }

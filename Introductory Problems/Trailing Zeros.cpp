@@ -1,16 +1,23 @@
 #include <bits/stdc++.h>
 using namespace std;
-
-int n;
-
+ 
+typedef long long ll;
+ 
+ll n;
+ 
+ll Legendre(ll n, ll p) {
+    ll a = 0;
+    for (ll x = p; x <= n; x *= p)
+        a += n / x;
+    return a;
+}
+ 
 int main() {
     ios::sync_with_stdio(0); cin.tie(0);
  
     cin >> n;
-    
-    int ans = 0;
-    for (int p = 5; n >= p; n /= p)
-        ans += n / p;
-    cout << ans << "\n";
+ 
+    cout << Legendre(n, 5) << "\n";
+
     return 0;
 }

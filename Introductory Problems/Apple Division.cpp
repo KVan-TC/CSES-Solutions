@@ -7,13 +7,15 @@ int n, a[25];
 ll S, ans = 1e18;
 
 void Try(int i, ll s) {
+    if (s * 2 > S) return;
+
     if (i == n) {
         ans = min(ans, S - 2 * s);
         return;
     }
+
     Try(i + 1, s);
-    if (s + a[i] <= S / 2)
-        Try(i + 1, s + a[i]);
+    Try(i + 1, s + a[i]);
 }
 
 int main() {
@@ -26,5 +28,6 @@ int main() {
     Try(0, 0);
 
     cout << ans << "\n";
+    
     return 0;
 }

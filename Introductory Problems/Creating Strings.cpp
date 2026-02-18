@@ -1,21 +1,23 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-string S;
-vector<string> v;
+typedef long long ll;
+
+string s;
 
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0);
- 
-    cin >> S;
-    sort(S.begin(), S.end());
+    ios_base::sync_with_stdio(0); cin.tie(0);
 
+    cin >> s;
+    sort(s.begin(), s.end());
+
+    vector<string> q;
     do {
-        v.push_back(S);
-    } while (next_permutation(S.begin(), S.end()));
+        q.push_back(s);
+    } while (next_permutation(s.begin(), s.end()));
 
-    cout << v.size() << "\n";
-    for (string s : v) 
-        cout << s << "\n";
+    cout << (int)q.size() << "\n";
+    for (string s : q) cout << s << "\n";
+
     return 0;
 }

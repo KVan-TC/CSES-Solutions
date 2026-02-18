@@ -9,6 +9,7 @@ int main() {
     ios::sync_with_stdio(0); cin.tie(0);
  
     cin >> n;
+
     ll num = 0;
     for (int i = 1; i <= n; i++)
         num ^= i;
@@ -16,7 +17,7 @@ int main() {
         int x; cin >> x;
         num ^= x;
     }
- 
     cout << num << "\n";
+
     return 0;
 }
